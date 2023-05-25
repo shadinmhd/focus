@@ -10,9 +10,9 @@ body {
   padding: 0px 50px !important;
 }
 
-.nav-right {
+/* .nav-right {
   justify-content: end;
-}
+} */
 
 /* .left-margin-main{
   margin-top:70px ;
@@ -282,14 +282,14 @@ p {
 
 #contact .contact-form {
   background: #ffffff;
-  box-shadow: 0px 0px 10px rgb(234 234 234 / 70%);
+  box-shadow: 0px 0px 10px #EAEAEA;
   border: 1px solid #f1f1f1;
 }
 
 #contact .address-section,
 #contact .phone-section {
   background: #ffffff;
-  box-shadow: 0px 0px 10px rgb(234 234 234 / 70%);
+  box-shadow: 0px 0px 10px #EAEAEA;
   border: 1px solid #ffffff;
   line-height: 30px;
   justify-content: space-around;
@@ -297,7 +297,7 @@ p {
 
 #contact .phone-section {
   background: #ffffff;
-  box-shadow: 0px 0px 10px rgb(234 234 234 / 70%);
+  box-shadow: 0px 0px 10px #EAEAEA;
   border: 1px solid #ffffff;
   line-height: 30px;
   justify-content: space-around;
@@ -316,13 +316,13 @@ p {
 
 #contact .map-section {
   background: #ffffff;
-  box-shadow: 0px 0px 10px rgb(234 234 234 / 70%);
+  box-shadow: 0px 0px 10px #EAEAEA;
   border: 1px solid #f1f1f1;
 }
 
 #contact .contact-form {
   background: #ffffff;
-  box-shadow: 0px 0px 10px rgb(234 234 234 / 70%);
+  box-shadow: 0px 0px 10px #EAEAEA;
   border: 1px solid #f1f1f1;
 }
 
