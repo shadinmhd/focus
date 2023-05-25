@@ -10,8 +10,11 @@
   <link rel="shortcut icon" href="images/titilelogo.png" type="image/x-icon" />
   <!-- bootstrap -->
   <link rel="stylesheet" href="style.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
   <!-- font-awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" />
   <!-- google-fonts -->
@@ -22,22 +25,21 @@
 </head>
 
 <body>
-
   <!-- navbar -->
 
   <section>
-    <header id="header" class="shadow-sm">
+    <header id="header">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid sm-size">
           <div>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand ms-5" href="#">
               <img src="images/logo.png" alt="" class="logo" /></a>
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse nav-right main-nav" id="navbarNav">
+          <div class="collapse navbar-collapse nav-right" id="navbarNav">
             <ul class="navbar-nav ">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
@@ -61,7 +63,7 @@
     </header>
   </section>
   <section id="banner">
-    <div class="container-fluid custom">
+    <div class="container-fluid custom mt-5">
       <div class="row">
         <div class="col-lg-6 left-b ">
           <h1>LEADING IT SOLUTIONS COMPANY IN KERALA</h1>
@@ -370,7 +372,8 @@
           </p>
         </div>
         <div class="col-lg-4 col-md-5 col-sm-12 blue-button-section-div meadia">
-          <button type="button" id="quote-button" class="btn light-fit-btn rounded-pill blue-button-section meadia" onclick="pop()">
+          <button type="button" id="quote-button" class="btn light-fit-btn rounded-pill blue-button-section meadia"
+            onclick="pop()">
             REQUEST A QUOTE
           </button>
         </div>
@@ -387,13 +390,13 @@
             What our clients have to say about us
           </p>
         </div>
-        <div class="d-flex">
-          <div> <img src="images/logo1.png" alt="" style="    height: auto; width: 60%;"> </div>
-          <div> <img src="images/logo2.png" alt="" style="    height: auto; width: 60%;"> </div>
-          <div> <img src="images/logo3.png" alt="" style="    height: auto; width: 60%;"> </div>
-          <div> <img src="images/logo4.png" alt="" style="    height: auto; width: 60%;"> </div>
-          <div> <img src="images/logo5.png" alt="" style="    height: auto; width: 60%;"> </div>
-          <div> <img src="images/logo6.png" alt="" style="    height: auto; width: 60%;"> </div>
+        <div class="d-flex row">
+          <div class="col-md-2"> <img src="images/logo1.png" id="supporters-logo"> </div>
+          <div class="col-md-2 " > <img src="images/logo2.png" id="supporters-logo"> </div>
+          <div class="col-md-2 " > <img src="images/logo3.png" id="supporters-logo"> </div>
+          <div class="col-md-2 " > <img src="images/logo4.png" id="supporters-logo"> </div>
+          <div class="col-md-2 " > <img src="images/logo5.png" id="supporters-logo"> </div>
+          <div class="col-md-2 " > <img src="images/logo6.png" id="supporters-logo"> </div>
         </div>
       </div>
     </div>
@@ -420,9 +423,7 @@
     </div>
   </section>
 
-  <!-- form-section -->
-
-  <section id="contact" class="site-container sections-gap-t">
+  <section id="contact" class="sections-gap-t">
     <div class="container-fluid custom">
       <div class="row contact-section m-0 p-0">
         <div class="col-lg-4 p-5 contact-form">
@@ -500,10 +501,10 @@
           </div>
           <div class="row mt-4">
             <div class="col-lg-12 p-3 map-section">
-              <iframe
+              <!-- <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31264.83256487954!2d76.04754872067184!3d11.615930072325025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba673211ef05bef%3A0x75dea967414900bc!2sFocus%20IT%20Solutions!5e0!3m2!1sen!2sin!4v1594619875419!5m2!1sen!2sin"
-                width="100%" height="350" frameborder="0" style="border: 0" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+                width="100%" height="350" frameborder="0" style="border: 0"  aria-hidden="false"
+                tabindex="0"></iframe> -->
             </div>
           </div>
         </div>
@@ -542,6 +543,19 @@
       </div>
     </div>
   </footer>
+  <script>
+    function dummyalert() {
+      alert("here is a quote")
+    }
+    const header = document.getElementById("header")
+    document.addEventListener('scroll',() => {
+      if(scrollY > 5){
+        header.classList.add("header-scroll")
+      }else{
+        header.classList.remove("header-scroll")
+      }
+    })
+  </script>
 </body>
 
 </html>

@@ -7,8 +7,7 @@ body {
 }
 
 .custom {
-  padding: 0px 50px;
-  box-sizing: border-box;
+  padding: 0px 50px !important;
 }
 
 .nav-right {
@@ -66,8 +65,14 @@ h2 {
 #header {
   position: fixed;
   width: 100%;
-  background-color: #ffffff;
+  background-color: transparent;
   z-index: 1;
+  transition: 0.5s;
+}
+
+.header-scroll{
+  box-shadow: 0px 0px 5px 3px gray;
+  background-color:  #ffffff !important;
 }
 
 #banner {
@@ -141,7 +146,7 @@ h3 {
   font-size: 28px;
 }
 
-#services .service-section .main-service {
+#services  .service-section  .main-service {
   list-style: none;
   text-align: left;
   border: 2px solid #f6f6f6;
@@ -214,6 +219,18 @@ p {
   background-color: #ffffff !important;
   transition-timing-function: ease-in !important;
   transition: 0.5s !important;
+}
+
+#supporters-logo{
+  height: 60%;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 5%;
+}
+
+#supporters-logo:hover{
+  filter: grayscale(0%);
 }
 
 .freespace {
