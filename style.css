@@ -195,25 +195,25 @@ p {
 }
 
 .blue-button-section {
-  font-size: 13px;
-  border-radius: 200px;
-  background: none;
-  border: 2px solid #ffffff;
-  color: #ffffff;
-  padding: 12px 20px;
-  letter-spacing: 1px;
-  font-weight: 600;
-  float: right;
-  margin-top: 5px;
-  transition-timing-function: ease-out;
-  transition: 0.5s;
+  font-size: 13px !important;
+  border-radius: 200px !important;
+  background: none !important;
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+  padding: 12px 20px !important;
+  letter-spacing: 1px !important;
+  font-weight: 600 !important;
+  float: right !important;
+  margin-top: 5px !important;
+  transition-timing-function: ease-out !important;
+  transition: 0.5s !important;
 }
 
 .blue-button-section:hover {
-  color: #5b5c5c;
-  background-color: #ffffff;
-  transition-timing-function: ease-in;
-  transition: 0.5s;
+  color: #5b5c5c !important;
+  background-color: #ffffff !important;
+  transition-timing-function: ease-in !important;
+  transition: 0.5s !important;
 }
 
 .freespace {
